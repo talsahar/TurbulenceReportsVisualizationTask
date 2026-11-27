@@ -5,6 +5,8 @@ a route between two airports. The project uses Swift, SwiftUI, MetalKit,
 and Clean Architecture to separate business logic, data management, and
 visualization.
 
+<img width="2622" height="1206" alt="Simulator Screenshot - iPhone 17 Pro - 2026-11-27 at 23 30 47" src="https://github.com/user-attachments/assets/f5d6c9b9-d3c2-4a3c-a7c1-c6ee035fb903" />
+
 ## Overview
 
 The application processes turbulence observations and airport
