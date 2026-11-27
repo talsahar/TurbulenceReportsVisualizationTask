@@ -1,0 +1,6 @@
+framework module H3Wrapper {
+  umbrella header "H3Wrapper.h"
+  export *
+
+  module * { export * }
+}
