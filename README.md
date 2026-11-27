@@ -171,3 +171,4 @@ Potential areas for further development:
 -   Offline support, caching fetched data before flight
 -   Improved rendering performance for large datasets.
 -   Data streaming - TurbulenceDataProvider can provide async stream with HTTPSocket, allowing TurbulenceRepository expose an AsyncStream object. This way our report can receive live updates and refresh in any update
+# TurbulenceReportsVisualizationTask
