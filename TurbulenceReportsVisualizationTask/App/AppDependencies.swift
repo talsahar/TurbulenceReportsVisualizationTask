@@ -13,9 +13,7 @@ final class AppDependencies {
     private func makeTurbulenceReportViewModel() -> TurbulenceReportViewModel {
         let prepareTurbulenceReportUseCase = PrepareTurbulenceReportUseCaseImpl(
             turbulenceRepository: makeTurbulenceRepository(),
-            airportCoordinatesProvider: try! AirportCoordinatesJSONProvider(),
-            filteringService: TurbulenceObservationFilteringService(),
-            distanceCalculator: DistanceCalculator()
+            airportCoordinatesProvider: try! AirportCoordinatesJSONProvider()
         )
         return TurbulenceReportViewModel(
             prepareTurbulenceReportUseCase: prepareTurbulenceReportUseCase

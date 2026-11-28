@@ -5,15 +5,11 @@ import CoreLocation
 
 final class TurbulenceObservationFilteringServiceTests: XCTestCase {
 
-    private var sut: TurbulenceObservationFilteringService!
-
     override func setUp() {
         super.setUp()
-        sut = TurbulenceObservationFilteringService()
     }
 
     override func tearDown() {
-        sut = nil
         super.tearDown()
     }
 
@@ -31,7 +27,7 @@ final class TurbulenceObservationFilteringServiceTests: XCTestCase {
         ]
 
         // When
-        let result = sut.keepLatestObservationPerCoordinate(
+        let result = TurbulenceObservationFilteringService.keepLatestObservationPerCoordinate(
             from: observations
         )
 
@@ -54,7 +50,7 @@ final class TurbulenceObservationFilteringServiceTests: XCTestCase {
         ]
 
         // When
-        let result = sut.keepLatestObservationPerCoordinate(
+        let result = TurbulenceObservationFilteringService.keepLatestObservationPerCoordinate(
             from: observations
         )
 
@@ -64,7 +60,7 @@ final class TurbulenceObservationFilteringServiceTests: XCTestCase {
 
     func testKeepLatestObservationPerCoordinate_HandlesEmptyArray() {
         // When
-        let result = sut.keepLatestObservationPerCoordinate(from: [])
+        let result = TurbulenceObservationFilteringService.keepLatestObservationPerCoordinate(from: [])
 
         // Then
         XCTAssertTrue(result.isEmpty)
@@ -80,7 +76,7 @@ final class TurbulenceObservationFilteringServiceTests: XCTestCase {
         ]
 
         // When
-        let result = sut.keepLatestObservationPerCoordinate(
+        let result = TurbulenceObservationFilteringService.keepLatestObservationPerCoordinate(
             from: observations
         )
 

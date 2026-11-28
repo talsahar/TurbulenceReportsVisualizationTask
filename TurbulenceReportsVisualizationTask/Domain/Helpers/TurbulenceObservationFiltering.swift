@@ -1,16 +1,9 @@
 
 import CoreLocation
 
-protocol TurbulenceObservationFiltering: Sendable {
-    func keepLatestObservationPerCoordinate(
-        from observations: [TurbulenceObservation]
-    ) -> [TurbulenceObservation]
+struct TurbulenceObservationFilteringService {
 
-}
-
-struct TurbulenceObservationFilteringService: TurbulenceObservationFiltering {
-
-    func keepLatestObservationPerCoordinate(
+    static func keepLatestObservationPerCoordinate(
         from observations: [TurbulenceObservation]
     ) -> [TurbulenceObservation] {
 

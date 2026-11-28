@@ -1,18 +1,11 @@
 
 import CoreLocation
 
-protocol DistanceCalculating {
-    func distanceInMiles(
-        from start: CLLocationCoordinate2D,
-        to end: CLLocationCoordinate2D
-    ) -> Double
-}
-
-struct DistanceCalculator: DistanceCalculating {
+struct DistanceCalculator {
 
     private static let metersPerMile = 1609.344
 
-    func distanceInMiles(
+    static func distanceInMiles(
         from start: CLLocationCoordinate2D,
         to end: CLLocationCoordinate2D
     ) -> Double {

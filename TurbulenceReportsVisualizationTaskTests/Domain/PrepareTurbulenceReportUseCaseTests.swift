@@ -18,9 +18,7 @@ struct PrepareTurbulenceReportUseCaseTests {
 
         let sut = await PrepareTurbulenceReportUseCaseImpl(
             turbulenceRepository: repository,
-            airportCoordinatesProvider: AirportCoordinatesJSONProvider(),
-            filteringService: TurbulenceObservationFilteringService(),
-            distanceCalculator: DistanceCalculator()
+            airportCoordinatesProvider: AirportCoordinatesJSONProvider()
         )
 
         // Act & Measure
