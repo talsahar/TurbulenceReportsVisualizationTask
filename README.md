@@ -46,6 +46,9 @@ TurbulenceReportsVisualizationTask
     └── DTOs
 ```
 
+<img width="2152" height="661" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/46c22529-33d9-40f3-bff6-6b79e2bf1a0d" />
+
+
 ### Presentation Layer
 
 Responsible for displaying the turbulence report and managing UI state.
