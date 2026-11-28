@@ -45,9 +45,7 @@ TurbulenceReportsVisualizationTask
     ├── Repositories
     └── DTOs
 ```
-
-<img width="2152" height="661" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/46c22529-33d9-40f3-bff6-6b79e2bf1a0d" />
-
+<img width="2152" height="661" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/4a4ffa3b-6f03-4d79-861e-aa9208475f55" />
 
 ### Presentation Layer
 
