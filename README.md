@@ -18,7 +18,7 @@ coordinates to prepare a report containing:
 -   Departure and destination airport information.
 -   A graphical visualization of turbulence observations.
 
-* Important: For better visualization, app locked support only on portrait mode.
+* Important: For better visualization of the report, app supports only landscape mode.
 
 The chart is rendered using **MetalKit** for GPU-accelerated drawing.
 
